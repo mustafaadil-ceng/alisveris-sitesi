@@ -6,15 +6,13 @@ Bu çalışmanın amacı, basit bir alışveriş sitesi arayüzü geliştirerek:
 - JSON veri okuma,
 - Dinamik ürün listeleme,
 - Sepet yönetimi,
-- LocalStorage kullanımı,
-- Bootstrap ve jQuery entegrasyonu gibi temel web programlama becerilerini uygulamaktır.
+- LocalStorage kullanımı gibi temel web sitesi işlemlerini kullanmaktır.
 
 ## Özellikler
 - **Ürün Listeleme:** Tüm ürünler `products.json` dosyasından okunarak dinamik olarak sayfaya eklenir.
 - **Sepete Ekleme-Çıkarma:** Kullanıcı istediği ürünü sepete ekleyip çıkarabilir.
 - **Sepet Durumu:** Sepetteki ürün sayısı canlı olarak güncellenir.
 - **Bildirim Sistemi:** Toastr kütüphanesi ile işlem ile ilgili bilgi ya da uyarı verdirilir.
-- **Responsive Tasarım:** Bootstrap kullanılarak mobil uyumlu bir arayüz sağlanmıştır.
 
 ## Kullanılan Teknolojiler
 - HTML5, CSS3
@@ -24,7 +22,6 @@ Bu çalışmanın amacı, basit bir alışveriş sitesi arayüzü geliştirerek:
 - JSON veri dosyası (products.json)
 
 ## Dosya Yapısı
-.
 index.html            → Ana sayfa  
 style.css             → Stil dosyası  
 app.js                → Sepet işlemleri  
