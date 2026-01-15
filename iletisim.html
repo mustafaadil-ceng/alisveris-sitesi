@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>İletişim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+
+  <div class="card center-text">
+    <h1>İletişim</h1>
+
+    <p>Görüş ve önerilerinizi bizimle paylaşabilirsiniz.</p>
+
+    <form onsubmit="document.getElementById('msg').style.display='block'; return false;">
+      <textarea placeholder="Mesajınızı buraya yazabilirsiniz" required></textarea>
+      <br>
+      <button type="submit">Gönder</button>
+    </form>
+
+    <p id="msg" class="info" style="display:none;">
+      Mesajınız iletildi.
+    </p>
+
+    <a class="back" href="index.html">←Ana Sayfaya Dön</a>
+  </div>
+
+</body>
+</html>

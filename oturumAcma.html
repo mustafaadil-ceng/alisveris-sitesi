@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Oturum Açma</title> 
+    <link rel="stylesheet" href="style.css">  
+</head>
+
+<body class="sign_page">
+    <div class="sign_in">
+        <form onsubmit="return check_sign()">
+            <div class="user_name">
+                Kullanıcı Adı <br>
+                <input type="text" id="username" required>
+            </div>
+            <div class="password">
+                Şifre <br>
+                <input type="password" id="password" required>
+            </div>
+            <p id="uyari" class="info"></p>
+            <div class="end_sign">
+                <button type="submit" class="sign_button">Gönder</button>
+                <a href="kayit.html">Hesabınız yok mu?</a>
+            </div>
+            <div class="back_button">
+                <a href="index.html">←Ana Sayfaya Dön</a>
+            </div>
+        </form>
+    </div> 
+    <script type="text/javascript" src="oturum.js"></script>  
+</body>
+</html>

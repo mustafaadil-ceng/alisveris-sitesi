@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Hesap Açma</title> 
+    <link rel="stylesheet" href="style.css">  
+</head>
+
+<body class="log_page">
+    <div class="log_in">
+        <form onsubmit="return check_log()">
+            <div class="Name">
+                Ad <br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="Surname">
+                Soyad <br>
+                <input type="text" id="surname" required>
+            </div>
+            <div class="phone">
+                Telefon <br>
+                <input type="text" id="phone" required>
+            </div>
+            <div class="choose_name">
+                Kullanıcı Adı Belirleme <br>
+                <input type="text" id="username" required>
+            </div>
+            <div class="end_log">
+                <button type="submit" class="log_button">Gönder</button>
+            </div>
+            <p id="uyari" class="info"></p>
+            <div class="back_button">
+                <a href="oturumAcma.html">←Geri Dön</a>
+            </div>
+            <div class="back_button">
+                <a href="index.html">←Ana Sayfaya Dön</a>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="kayit.js"></script>    
+</body>
+</html>
