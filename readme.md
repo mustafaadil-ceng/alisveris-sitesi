@@ -36,7 +36,7 @@ kayit.js              → Kayıt giriş sayfası form kontrol ve uyarı işlemi
 oturum.js             → Oturum açma sayfası form kontrol ve uyarı işlemi
 products.json         → Ürün verileri  
 assets/               → Bootstrap, görüntüler ve Toastr dosyaları
-Proje Raporu.pdf      → Projenin işlevleri raporu
+Proje Raporu.docx     → Projenin işlevleri raporu
 
 ## Projeyi Çalıştırma
 1. Proje klasörünü indirin.
